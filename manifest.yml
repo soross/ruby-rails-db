@@ -7,6 +7,9 @@ applications:
 - name: bluemix-rails32
   memory: 512M
   instances: 1
+  domain: au-syd.mybluemix.net
+  host: bluemix-rails32
+  disk_quota: 256M
   path: .
   stack: cflinuxfs2
   buildpack: https://github.com/cloudfoundry/ruby-buildpack.git
